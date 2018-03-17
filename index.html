@@ -1,77 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Portfolio</title>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/styles.css">
-	</head>
-	<body>
-		<section id="portfolio-title">
-			<div class="container">
-				<div class="row">
-					<h1>PORTFOLIO</h1>
-				</div>
-			</div>
-		</section>
-		<section id="portfolio-slogan">
-			<div class="container">
-				<div class="row">
-					<h1>SEE WHAT'S POSSIBLE</h1>
-				</div>
-			</div>
-		</section>
-		<section id="portfolio-items">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="portfolio-img-wrapper">
-							<a href="https://ayselamrahli.github.io/lenden/" target="_blank"><img src="assets/images/lenden.png" alt="portfolio item"></a>
-						</div>
-						<h4>Lenden Template</h4>
-					</div>
-					<div class="col-md-3">
-						<div class="portfolio-img-wrapper">
-							<a href="https://ayselamrahli.github.io/template-portfolio/"><img src="assets/images/richard.png" alt="portfolio item"></a>
-						</div>
-						<h4>Portfolio template</h4>
-					</div>
-					<div class="col-md-3">
-						<div class="portfolio-img-wrapper">
-							<a href="http://ufaz.asoiu.edu.az/az/home" target="_blank"><img src="assets/images/ufaz.png" alt="portfolio item"></a>
-						</div>
-						<h4>UFAZ Registration System</h4>
-					</div>
-					<div class="col-md-3">
-						<div class="portfolio-img-wrapper">
-							<a href="http://asoiu.edu.az/" target="_blank"><img src="assets/images/adnsu.png" alt="portfolio item"></a>
-						</div>
-						<h4>official website of ASOIU</h4>
-					</div>
-					<div class="col-md-3">
-						<div class="portfolio-img-wrapper">
-							<a href="https://lit-brushlands-30918.herokuapp.com/" target="_blank"><img src="assets/images/adnsu.png" alt="portfolio item"></a>
-						</div>
-						<h4>official website of ASOIU (New design)</h4>
-					</div>
-					<div class="col-md-3">
-						<div class="portfolio-img-wrapper">
-							<a href="https://ayselamrahli.github.io/ModernistTemplate/" target="_blank"><img src="assets/images/modernist.png" alt="portfolio item"></a>
-						</div>
-						<h4>Modernist Template</h4>
-					</div>
-					<div class="col-md-3">
-						<div class="portfolio-img-wrapper">
-							<a href="https://ayselamrahli.github.io/TanatosTemplate/" target="_blank"><img src="assets/images/tanatos.png" alt="portfolio item"></a>
-						</div>
-						<h4>Tanatos Template </h4>
-					</div>
-				</div>
-			</div>
-		</section>
-	</body>
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>AyselAmrahli</title>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<script src="js/init.js"></script>
+<noscript>
+<link rel="stylesheet" href="css/skel-noscript.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-wide.css">
+</noscript>
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="css/ie9.css">
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/ie8.css">
+<![endif]-->
+</head>
+<body>
+<div id="header" class="skel-panels-fixed">
+  <div class="top">
+    <div id="logo"> <span class="image avatar48"><img src="images/aysel.jpg" alt=""></span>
+      <h1 id="title">Aysel Amrahli</h1>
+      <span class="byline">Frontend Developer</span>
+       <span class="byline">아이셀</span>
+       </div>
+    <nav id="nav">
+      <ul>
+        <!--<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Intro</span></a></li>-->
+        <li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Portfolio</span></a></li>
+        <li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="icon icon-user">About Me</span></a></li>
+        <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Contact</span></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom">
+    <ul class="icons">
+      <li><a href="https://www.linkedin.com/in/aysel-amrahli-615a43120/" class="icon icon-linkedin"><span>Linkedin</span></a></li>      
+      <li><a href="https://twitter.com/AmrahliAysel" class="icon icon-twitter"><span>Twitter</span></a></li>
+      <li><a href="https://www.facebook.com/aysel.emrahli.3" class="icon icon-facebook"><span>Facebook</span></a></li>
+      <li><a href="https://github.com/AyselAmrahli" class="icon icon-github"><span>Github</span></a></li>
+      <li><a href="https://bitbucket.org/AyselAmrahli/" class="icon icon-bitbucket"><span>Bitbucket</span></a></li>
+      <li><a href="https://www.instagram.com/ayselamrahli/" class="icon icon-instagram"><span>Instagram</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="main">
+  <!--<section id="top" class="one">
+    <div class="container small"> <a href="#" class="image cover1"><img src="images/cover2.jpg" alt=""></a>
+      <p>오직 나만이 내 인생을 바꿀 수 있다. 아무도 나 대신 해 줄 수 없다.</p>
+    </div>
+  </section>-->
+  <section id="portfolio" class="two">
+    <div class="container">
+      <header>
+        <h2>Portfolio</h2>
+      </header>
+      <div class="row">
+        <div class="4u">
+          <article class="item"><a href="http://asoiu.edu.az/az" target="_blank" class="image full"><img src="images/adnsu.png" alt=""></a>
+            <header>
+              <h3>Azerbaijan State Oil and Industry University</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="http://isesco.az/en/" target="_blank" class="image full"><img src="images/isesco.png" alt=""></a>
+            <header>
+              <h3>National Commission of the Republic of Azerbaijan for ISESCO</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="http://azerturkbank.az/bahar/" target="_blank" class="image full"><img src="images/spring.png" alt=""></a>
+            <header>
+              <h3>Event of AzerTurkBank</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="https://ayselamrahli.github.io/lenden/" target="_blank" class="image full"><img src="images/lenden.png" alt=""></a>
+            <header>
+              <h3>Lenden Template By Me</h3>
+            </header>
+          </article>
+        </div>
+        <div class="4u">
+          <article class="item"> <a href="http://originar.az/en" target="_blank" class="image full"><img src="images/originar.png" alt=""></a>
+            <header>
+              <h3>Originar</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="https://pomegranate.az/" target="_blank" class="image full"><img src="images/anniia.png" alt=""></a>
+            <header>
+              <h3>Pomegranate Producers and Exporters Association of Azerbaijan</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="http://layouts.saffman.co.uk/qulaqfali/" target="_blank" class="image full"><img src="images/qulaqfali.png" alt=""></a>
+            <header>
+              <h3>Novruz Event of AzerTurkBank</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="http://abdurahmanov.az/az" target="_blank" class="image full"><img src="images/emil.png" alt=""></a>
+            <header>
+              <h3>Abdurahmanov Emil <br>(Portfolio-Blog)</h3>
+            </header>
+          </article>
+        </div>
+        <div class="4u">
+          <article class="item"> <a href="http://layouts.saffman.co.uk/jarullazada/index.html" target="_blank" class="image full"><img src="images/jarullazada.png" alt=""></a>
+            <header>
+              <h3>Imran Jarullazada <br> (Oculoplastics)</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="http://icenter.az/" target="_blank" class="image full"><img src="images/icenter.png" alt=""></a>
+            <header>
+              <h3>Innovation Center</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="http://siper-ang.saffman.co.uk/" target="_blank" class="image full"><img src="images/siper.png" alt=""></a>
+            <header>
+              <h3>Sipar Web Application</h3>
+            </header>
+          </article>
+          <article class="item"> <a href="http://ufaz.asoiu.edu.az/az/home" target="_blank" class="image full"><img src="images/ufaz.png" alt=""></a>
+            <header>
+              <h3>UFAZ(French -Azerbaijani University) Registration System</h3>
+            </header>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="three">
+    <div class="container small">
+      <header>
+        <h2>About Me</h2>
+      </header>
+      <a href="#" class="image featured"><img src="images/cover.jpg" alt=""></a>
+      <p>
+        My Name is Aysel, I've graduated from Baku State University,Computer sciences.
+        I'm a junior front-end developer from Azerbaijan.I've been working as 
+        a developer for 3 years and have knowledge in both frontend and backend 
+        development.
+      </p>
+      <a target="_blank" href="https://drive.google.com/open?id=16uFL32O7Cg7o8fAyxX6uD6_Bq3YAzzf8">Download CV</a>
+    </div>
+  </section>
+  <section id="contact" class="four">
+    <div class="container small">
+      <header>
+        <h2>Contact</h2>
+      </header>
+      <label>Address:</label> <b>Azerbaijan,Baku</b> <br>
+      <label>Phone:</label> <b>+994 703531044</b> <br>
+      <label>Skype:</label> <b>aysel.emrahli3</b> <br>
+      <label>Email:</label> <b>ayselamrahli@gmail.com</b>
+
+    </div>
+  </section>
+</div>
+<div id="footer">
+  <div class="copyright">
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Aysel Amrahli. All rights reserved.</p>
+  </div>
+</div>
+</body>
 </html>
